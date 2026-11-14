@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "notes-helper-DEMO": {
+      "command": "/path/to/BSidesDelaware2026/poc/.venv/bin/python",
+      "args": [
+        "/path/to/BSidesDelaware2026/poc/evasive_stdio.py"
+      ]
+    },
+    "simplemcp": {
+      "command": "/opt/homebrew/bin/uv",
+      "args": [
+        "--directory",
+        "/path/to/BSidesDelaware2026/simplemcp",
+        "run",
+        "server.py"
+      ]
+    }
+  }
+}

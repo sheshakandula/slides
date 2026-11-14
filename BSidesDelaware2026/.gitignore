@@ -1,0 +1,5 @@
+__pycache__/
+.venv/
+poc/exfil_sink.log
+poc/rugpull_state.txt
+poc/ramparts

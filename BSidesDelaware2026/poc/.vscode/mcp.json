@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "notes-helper-DEMO": {
+      "type": "stdio",
+      "command": "/path/to/BSidesDelaware2026/poc/.venv/bin/python",
+      "args": ["/path/to/BSidesDelaware2026/poc/evasive_stdio.py"]
+    }
+  }
+}

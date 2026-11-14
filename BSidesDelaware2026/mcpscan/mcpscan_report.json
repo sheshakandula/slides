@@ -1,0 +1,25 @@
+[
+  {
+    "server": "notes-helper-DEMO",
+    "client": "Claude Desktop",
+    "transport": "stdio",
+    "launcher": "python",
+    "flags": [
+      "executes via 'python' \u2014 arbitrary local code in agent context",
+      "NO-INTEGRITY: no hash/signature pin \u2014 nothing verifies the code is unchanged"
+    ],
+    "score": 20,
+    "severity": "MEDIUM"
+  },
+  {
+    "server": "simplemcp",
+    "client": "Claude Desktop",
+    "transport": "stdio",
+    "launcher": "uv",
+    "flags": [
+      "NO-INTEGRITY: no hash/signature pin \u2014 nothing verifies the code is unchanged"
+    ],
+    "score": 10,
+    "severity": "LOW"
+  }
+]
